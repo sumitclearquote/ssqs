@@ -1,5 +1,8 @@
 import turicreate as tc
 
+tc.config.set_num_gpus(1)
+
+
 # Load the starter images
 starter_images = tc.SFrame({'image':[tc.Image('wheelrim_testing/cropped_wheelrim.png')], 'label':['wheelrim']})
 
