@@ -1,0 +1,12 @@
+video_data/*
+!video_data/.gitkeep
+
+image_data/*
+!image_data/.gitkeep
+
+gopro_brake_parts/*
+inspection_snapshots/*
+
+#solutions
+solutions/ML3_4/April 02 15.11-15.36/*
+!solutions/ML3_4/April 02 15.11-15.36/.gitkeep
