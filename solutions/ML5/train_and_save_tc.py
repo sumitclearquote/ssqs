@@ -13,7 +13,7 @@ test_images = tc.SFrame({'image':[tc.Image('wheelrim_testing/frame_11910.jpg'),
 
 
 # Create a model. This step will take a few hours on CPU and about an hour on GPU
-model = tc.one_shot_object_detector.create(starter_images, 'label', max_iterations = 3)
+model = tc.one_shot_object_detector.create(starter_images, 'label')
 
 
 # Save predictions on the test set
