@@ -25,7 +25,7 @@ test_images['annotated_predictions'] = \
         test_images['predictions']) 
     
     
-print("Predictions for the test images: \n", test_images['predictions'])
+print("Total Predictions for the test images: \n", len(test_images['predictions']))
 
 print("\n\n")
 print("Annotated Predictions for the test images: \n", test_images['annotated_predictions'])
