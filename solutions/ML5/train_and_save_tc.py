@@ -7,13 +7,21 @@ print("GPUs being used based on config: ", tc.config.get_num_gpus())
 # Load the starter images
 starter_images = tc.SFrame({'image':[tc.Image('wheelrim_testing/cropped_wheelrim.png')], 'label':['wheelrim']})
 
+
+#Load the background images
+images = [tc.Image(f"wheelrim_testing/{imgname}") for imgname in os.listdir("wheelrim_testing") if not imgname.endswith(("Store", "json"))]
+
+bg_sarray = tc.SArray(images)
+
+
 # Load test images
 test_images = tc.SFrame({'image':[tc.Image('wheelrim_testing/frame_11910.jpg'), 
-                                  tc.Image('wheelrim_testing/frame_16180.jpg')]})
+                                  tc.Image('wheelrim_testing/frame_16180.jpg'),
+                                  tc.Image('wheelrim_testing/frame_9520.jpg')]})
 
 
 # Create a model. This step will take a few hours on CPU and about an hour on GPU
-model = tc.one_shot_object_detector.create(starter_images, 'label')
+model = tc.one_shot_object_detector.create(starter_images, 'label', backgrounds = bg_sarray)
 
 
 # Save predictions on the test set
@@ -33,5 +41,5 @@ print("\n\n")
 
 print("Saving model to disk ..")
 # Save the model for later use in TuriCreate
-model.save('models/wheelrim.model')
+model.save('models/wheelrim_with_bg.model')
 print("model saved to models/wheelrim.model")

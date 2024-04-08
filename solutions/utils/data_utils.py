@@ -22,9 +22,10 @@ def dump_json(json_file, dest_path, indent = 4):
         print("Error occurred in dumping json: ", e)
 
         
-def show(img):
+def show(img, title):
     plt.figure(figsize = (12,8))
     plt.imshow(img)
+    plt.title(title)
     plt.show()
         
         

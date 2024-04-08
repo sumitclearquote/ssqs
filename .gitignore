@@ -10,3 +10,11 @@ inspection_snapshots/*
 #solutions
 solutions/ML3_4/April 02 15.11-15.36/*
 !solutions/ML3_4/April 02 15.11-15.36/.gitkeep
+
+.DS_Store
+solutions/.DS_Store
+solutions/ML3_4/.DS_Store
+solutions/ML5/.DS_Store
+
+solutions/ML3_4/.DS_Store
+solutions/utils/__pycache__/data_utils.cpython-38.pyc
