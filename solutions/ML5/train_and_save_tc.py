@@ -5,9 +5,9 @@ tc.config.set_num_gpus(1)
 print("GPUs being used based on config: ", tc.config.get_num_gpus())
 
 
-def train_one_shot_detector(data_dir, test_images, class_name, starter_images_list, iteration = 1):
+def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, starter_images_list, iteration = 1):
     # Load the starter images
-    starter_images = tc.SFrame({'image':starter_images_list, 'label':[class_name]})
+    starter_images = tc.SFrame({'image':starter_images_list, 'label':[class_name1, class_name2]})
 
 
     #Load the background images
@@ -43,23 +43,23 @@ def train_one_shot_detector(data_dir, test_images, class_name, starter_images_li
     
     # Save the model for later use in TuriCreate
     if iteration != 1:
-        model.save(f'models/{class_name}_{iteration}.model')
-        print(f"Model Trained and saved to models/{class_name}_{iteration}.model")
+        model.save(f'models/{class_name1}_{iteration}.model')
+        print(f"Model Trained and saved to models/{class_name1}_{iteration}.model")
     else:
-        model.save(f'models/{class_name}.model')
-        print(f"Model Trained and saved to models/{class_name}.model")
+        model.save(f'models/{class_name1}.model')
+        print(f"Model Trained and saved to models/{class_name1}.model")
 
 if __name__ == '__main__':
     
-    class_name = "liftingpads"
+    class_name1 = "liftingpads"
+    class_name2 = class_name1
     
-    
-    data_dir = f"{class_name}_testing"
+    data_dir = f"{class_name1}_testing"
     test_images = [tc.Image(f"{data_dir}/{imgname}") for imgname in os.listdir(data_dir) if not imgname.endswith(("Store", "json")) and "cropped" not in imgname]
     
     total_starter_images = 2
-    starter_images_list = [tc.Image(f"{data_dir}/cropped_{class_name}{i}.png") for i in range(1, total_starter_images+1)]
+    starter_images_list = [tc.Image(f"{data_dir}/cropped_{class_name1}{i}.png") for i in range(1, total_starter_images+1)]
     
     iteration = 1
     
-    train_one_shot_detector(data_dir, test_images, class_name, starter_images_list, iteration=1)
+    train_one_shot_detector(data_dir, test_images, class_name1,class_name2, starter_images_list, iteration=1)
