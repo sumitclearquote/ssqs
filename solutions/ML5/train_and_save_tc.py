@@ -58,7 +58,7 @@ if __name__ == '__main__':
     test_images = [tc.Image(f"{data_dir}/{imgname}") for imgname in os.listdir(data_dir) if not imgname.endswith(("Store", "json")) and "cropped" not in imgname]
     
     total_starter_images = 2
-    starter_images_list = [tc.Image(f"{data_dir}/cropped_{class_name}{i}.png") for i in range(total_starter_images)]
+    starter_images_list = [tc.Image(f"{data_dir}/cropped_{class_name}{i}.png") for i in range(1, total_starter_images+1)]
     
     iteration = 1
     
