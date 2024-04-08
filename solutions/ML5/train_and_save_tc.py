@@ -44,10 +44,10 @@ def train_one_shot_detector(data_dir, test_images, class_name, starter_images_li
     # Save the model for later use in TuriCreate
     if iteration != 1:
         model.save(f'models/{class_name}_{iteration}.model')
-        print(f"model saved to models/{class_name}_{iteration}.model")
+        print(f"Model Trained and saved to models/{class_name}_{iteration}.model")
     else:
         model.save(f'models/{class_name}.model')
-        print(f"model saved to models/{class_name}.model")
+        print(f"Model Trained and saved to models/{class_name}.model")
 
 if __name__ == '__main__':
     
