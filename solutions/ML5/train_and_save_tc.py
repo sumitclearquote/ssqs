@@ -1,5 +1,5 @@
 import turicreate as tc
-
+import os
 tc.config.set_num_gpus(1)
 
 print("GPUs being used based on config: ", tc.config.get_num_gpus())
