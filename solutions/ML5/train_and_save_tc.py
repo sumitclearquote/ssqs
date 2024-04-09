@@ -5,7 +5,7 @@ tc.config.set_num_gpus(1)
 print("GPUs being used based on config: ", tc.config.get_num_gpus())
 
 
-def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, starter_images_list, iteration = 1):
+def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, starter_images_list, iteration = 1, use_custom_backgrounds = False):
     # Load the starter images
     starter_images = tc.SFrame({'image':starter_images_list, 'label':[class_name1, class_name2]})
 
@@ -21,7 +21,10 @@ def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, sta
 
 
     # Create a model. This step will take a few hours on CPU and about an hour on GPU
-    model = tc.one_shot_object_detector.create(starter_images, 'label', backgrounds = bg_sarray)
+    if use_custom_backgrounds:
+        model = tc.one_shot_object_detector.create(starter_images, 'label', backgrounds = bg_sarray)
+    else:
+        model = tc.one_shot_object_detector.create(starter_images, 'label')
 
 
     # Save predictions on the test set
@@ -53,6 +56,7 @@ if __name__ == '__main__':
     
     class_name1 = "liftingpads"
     class_name2 = class_name1
+    use_custom_backgrounds = False # Whether to use our custom backgrounds
     
     data_dir = f"{class_name1}_testing"
     test_images = [tc.Image(f"{data_dir}/{imgname}") for imgname in os.listdir(data_dir) if not imgname.endswith(("Store", "json")) and "cropped" not in imgname]
@@ -62,4 +66,4 @@ if __name__ == '__main__':
     
     iteration = 1
     
-    train_one_shot_detector(data_dir, test_images, class_name1,class_name2, starter_images_list, iteration=1)
+    train_one_shot_detector(data_dir, test_images, class_name1,class_name2, starter_images_list, iteration=1, use_custom_backgrounds=use_custom_backgrounds)
