@@ -21,3 +21,6 @@ solutions/utils/__pycache__/data_utils.cpython-38.pyc
 
 solutions/ML5/models/*
 !solutions/ML5/models/.gitkeep 
+
+#Datasets:
+headcam_training_images/*

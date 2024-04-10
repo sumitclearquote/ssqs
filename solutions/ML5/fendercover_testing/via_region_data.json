@@ -1,0 +1,548 @@
+{
+ "APRIL_04_15_frame_208.jpg": {
+  "filename": "APRIL_04_15_frame_208.jpg",
+  "size": 572224,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1103,
+      1098,
+      1802,
+      1804
+     ],
+     "all_points_y": [
+      720,
+      121,
+      131,
+      734
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_619.jpg": {
+  "filename": "APRIL_04_15_frame_619.jpg",
+  "size": 595277,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1103,
+      1098,
+      1791,
+      1793
+     ],
+     "all_points_y": [
+      720,
+      121,
+      132,
+      739
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_744.jpg": {
+  "filename": "APRIL_04_15_frame_744.jpg",
+  "size": 562716,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1102,
+      1107,
+      1828,
+      1828
+     ],
+     "all_points_y": [
+      615,
+      6,
+      8,
+      621
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_45.jpg": {
+  "filename": "APRIL_04_15_frame_45.jpg",
+  "size": 588089,
+  "regions": [],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_201.jpg": {
+  "filename": "APRIL_04_15_frame_201.jpg",
+  "size": 535485,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1397,
+      1397,
+      1818,
+      1813
+     ],
+     "all_points_y": [
+      215,
+      714,
+      714,
+      217
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_207.jpg": {
+  "filename": "APRIL_04_15_frame_207.jpg",
+  "size": 551521,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1802,
+      1799,
+      1125,
+      1130
+     ],
+     "all_points_y": [
+      118,
+      732,
+      728,
+      115
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_224.jpg": {
+  "filename": "APRIL_04_15_frame_224.jpg",
+  "size": 588705,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1103,
+      1098,
+      1802,
+      1804
+     ],
+     "all_points_y": [
+      720,
+      121,
+      131,
+      734
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_243.jpg": {
+  "filename": "APRIL_04_15_frame_243.jpg",
+  "size": 589963,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1103,
+      1098,
+      1802,
+      1804
+     ],
+     "all_points_y": [
+      720,
+      121,
+      131,
+      734
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_292.jpg": {
+  "filename": "APRIL_04_15_frame_292.jpg",
+  "size": 585879,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1103,
+      1098,
+      1802,
+      1804
+     ],
+     "all_points_y": [
+      720,
+      121,
+      131,
+      734
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_309.jpg": {
+  "filename": "APRIL_04_15_frame_309.jpg",
+  "size": 549215,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1107,
+      1102,
+      1811,
+      1812
+     ],
+     "all_points_y": [
+      674,
+      75,
+      86,
+      689
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_353.jpg": {
+  "filename": "APRIL_04_15_frame_353.jpg",
+  "size": 571593,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1109,
+      1104,
+      1813,
+      1813
+     ],
+     "all_points_y": [
+      659,
+      60,
+      68,
+      673
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_363.jpg": {
+  "filename": "APRIL_04_15_frame_363.jpg",
+  "size": 574482,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1109,
+      1104,
+      1813,
+      1813
+     ],
+     "all_points_y": [
+      659,
+      60,
+      68,
+      673
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_385.jpg": {
+  "filename": "APRIL_04_15_frame_385.jpg",
+  "size": 572960,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1099,
+      1095,
+      1821,
+      1819
+     ],
+     "all_points_y": [
+      612,
+      27,
+      32,
+      636
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_428.jpg": {
+  "filename": "APRIL_04_15_frame_428.jpg",
+  "size": 585965,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1116,
+      1115,
+      1819,
+      1817
+     ],
+     "all_points_y": [
+      736,
+      129,
+      139,
+      752
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_483.jpg": {
+  "filename": "APRIL_04_15_frame_483.jpg",
+  "size": 583394,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1131,
+      1137,
+      1847,
+      1845
+     ],
+     "all_points_y": [
+      755,
+      139,
+      144,
+      770
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_491.jpg": {
+  "filename": "APRIL_04_15_frame_491.jpg",
+  "size": 593763,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1128,
+      1134,
+      1847,
+      1845
+     ],
+     "all_points_y": [
+      756,
+      132,
+      144,
+      770
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_628.jpg": {
+  "filename": "APRIL_04_15_frame_628.jpg",
+  "size": 582316,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1098,
+      1096,
+      1793,
+      1791
+     ],
+     "all_points_y": [
+      725,
+      118,
+      127,
+      740
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_701.jpg": {
+  "filename": "APRIL_04_15_frame_701.jpg",
+  "size": 588962,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1106,
+      1106,
+      1797,
+      1794
+     ],
+     "all_points_y": [
+      126,
+      763,
+      765,
+      129
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_761.jpg": {
+  "filename": "APRIL_04_15_frame_761.jpg",
+  "size": 562930,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1107,
+      1109,
+      1822,
+      1826
+     ],
+     "all_points_y": [
+      4,
+      625,
+      633,
+      5
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_770.jpg": {
+  "filename": "APRIL_04_15_frame_770.jpg",
+  "size": 529663,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1107,
+      1107,
+      1837,
+      1839
+     ],
+     "all_points_y": [
+      6,
+      556,
+      554,
+      3
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ },
+ "APRIL_04_15_frame_772.jpg": {
+  "filename": "APRIL_04_15_frame_772.jpg",
+  "size": 538603,
+  "regions": [
+   {
+    "shape_attributes": {
+     "name": "polygon",
+     "all_points_x": [
+      1107,
+      1111,
+      1841,
+      1839
+     ],
+     "all_points_y": [
+      6,
+      525,
+      524,
+      3
+     ]
+    },
+    "region_attributes": {
+     "image_type": "fender_cover"
+    }
+   }
+  ],
+  "file_attributes": {}
+ }
+}
