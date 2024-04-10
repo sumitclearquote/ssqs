@@ -5,9 +5,9 @@ tc.config.set_num_gpus(1)
 print("GPUs being used based on config: ", tc.config.get_num_gpus())
 
 
-def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, starter_images_list, iteration = 1, use_custom_backgrounds = False):
+def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, starter_images_list, labels, iteration = 1, use_custom_backgrounds = False):
     # Load the starter images
-    starter_images = tc.SFrame({'image':starter_images_list, 'label':[class_name1, class_name2]})
+    starter_images = tc.SFrame({'image':starter_images_list, 'label':labels})
 
 
     #Load the background images
@@ -54,16 +54,16 @@ def train_one_shot_detector(data_dir, test_images, class_name1, class_name2, sta
 
 if __name__ == '__main__':
     
-    class_name1 = "liftingpads"
+    class_name1 = "fendercover"
     class_name2 = class_name1
     use_custom_backgrounds = False # Whether to use our custom backgrounds
     
     data_dir = f"{class_name1}_testing"
     test_images = [tc.Image(f"{data_dir}/{imgname}") for imgname in os.listdir(data_dir) if not imgname.endswith(("Store", "json")) and "cropped" not in imgname]
     
-    total_starter_images = 2
+    total_starter_images = 1
     starter_images_list = [tc.Image(f"{data_dir}/cropped_{class_name1}{i}.png") for i in range(1, total_starter_images+1)]
-    
+    labels = [class_name1] * total_starter_images
     iteration = 1
     
-    train_one_shot_detector(data_dir, test_images, class_name1,class_name2, starter_images_list, iteration=1, use_custom_backgrounds=use_custom_backgrounds)
+    train_one_shot_detector(data_dir, test_images, class_name1,class_name2, starter_images_list,labels, iteration=1, use_custom_backgrounds=use_custom_backgrounds)
