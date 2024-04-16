@@ -18,9 +18,24 @@ solutions/ML5/.DS_Store
 
 solutions/ML3_4/.DS_Store
 solutions/utils/__pycache__/data_utils.cpython-38.pyc
+solutions/ML2_5/datasets/*
+!solutions/ML2_5/datasets/.gitkeep
 
+
+#Large models
 solutions/ML5/models/*
 !solutions/ML5/models/.gitkeep 
+solutions/ML1/models/*
+!solutions/ML1/models/.gitkeep
 
 #Datasets:
 headcam_training_images/*
+fixedcam2_training_data_till_april4
+fixedcam3_training_data_april4_to_april10
+
+# Packages
+ultralytics/*
+
+# training datasets
+datasets/*
+!datasets/.gitkeep

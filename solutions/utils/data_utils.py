@@ -22,9 +22,9 @@ def dump_json(json_file, dest_path, indent = 4):
         print("Error occurred in dumping json: ", e)
 
         
-def show(img, title = "IMAGE"):
+def show(img, cmap = 'viridis', title = "IMAGE",):
     plt.figure(figsize = (12,8))
-    plt.imshow(img)
+    plt.imshow(img, cmap = cmap)
     plt.title(title)
     plt.show()
         
@@ -186,10 +186,10 @@ def plot_subplots(img1, img2, xlabel="X", ylabel="Y", title1='image1', title2='i
     axs[1].imshow(img2)
     axs[0].set_title(title1)
     axs[1].set_title(title2)
-    axs[0].xlabel(xlabel)
-    axs[1].xlabel(xlabel)
-    axs[0].ylabel(ylabel)
-    axs[1].ylabel(ylabel)
+    axs[0].set_xlabel(xlabel)
+    axs[1].set_xlabel(xlabel)
+    axs[0].set_ylabel(ylabel)
+    axs[1].set_ylabel(ylabel)
     plt.show()
     
     

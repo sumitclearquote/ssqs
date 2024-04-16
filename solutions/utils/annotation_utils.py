@@ -1,8 +1,8 @@
 import random
 import cv2
 import sys
-sys.path.append("utils")
-from data_utils import *
+sys.path.append("..")
+from utils.data_utils import *
 all_lamps = ["leftheadlamp", "rightheadlamp", "lefttaillamp", "righttaillamp", "leftfoglamp", "rightfoglamp"]
 
 
