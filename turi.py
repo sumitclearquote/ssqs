@@ -3,7 +3,7 @@ import os
 import random
 from PIL import Image
 from solutions.utils.data_utils import read_img, read_json, get_coords_from_annot, get_bbox_from_polycoords, draw_box, show
-from solutions.utils.annotation_utils import shrink_bbox
+#from solutions.utils.annotation_utils import shrink_bbox
 
 
 
