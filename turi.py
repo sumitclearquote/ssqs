@@ -23,7 +23,7 @@ else:
 test_image_set = os.listdir(data_dir)#[:8]
 #random.shuffle(test_image_set)
 
-print("Total images in test set: ", len(os.listdir(test_image_set)))
+print("Total images in test set: ", len(test_image_set))
 
 # Load test images
 test_images = tc.SFrame({'image':[tc.Image(f'{data_dir}/{imgname}') for imgname in test_image_set if not imgname.endswith(("Store", "json")) and "cropped" not in imgname], 
