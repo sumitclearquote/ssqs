@@ -1,0 +1,3 @@
+deep-text-recognition-benchmark: This repo was used to conduct training for checkpoint20. LCD OCR. 
+
+ultralytics: This repo was used to conduct training for all ssqs items object detection.
